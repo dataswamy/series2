@@ -13,7 +13,7 @@ kiwisolver
 MarkupSafe==1.1.1
 matplotlib
 mkl-fft==1.0.6
-mkl-random==1.1.1
+mkl-random==1.0.1.1
 mkl-service==2.3.0
 numpy
 olefile==0.46
