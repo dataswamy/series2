@@ -13,8 +13,6 @@ joblib==0.17.0
 kiwisolver
 MarkupSafe
 matplotlib
-mkl-random==1.0.4
-mkl-service==2.3.0
 mpld3==0.5.1
 numpy
 olefile==0.46
