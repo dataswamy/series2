@@ -1,5 +1,5 @@
 certifi==2020.6.20
-cffi 
+cffi
 click==7.1.2
 cycler==0.10.0
 Cython==0.29.17
@@ -13,7 +13,6 @@ joblib==0.17.0
 kiwisolver
 MarkupSafe
 matplotlib
-mkl-fft==1.2.0
 mkl-random==1.0.4
 mkl-service==2.3.0
 mpld3==0.5.1
