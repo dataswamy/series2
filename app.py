@@ -8,9 +8,9 @@ from os import listdir
 
 pat = r"C:\Users\Sandeep\PycharmProjects\series1\data\pickle files"
 list_of_files = listdir(r"C:\Users\Sandeep\PycharmProjects\series1\data\pickle files")
-list_of_col = ["M01AE", "N02BA", "N02BE", "N05B", "N05C", "R03", "R06"]
+list_of_col = ["N02BE", "N05B", "N05C", "R03", "R06"]
 m = {}
-for i in range(7):
+for i in range(5):
     m[list_of_col[i]] = list_of_files[i]
 
 app = Flask(__name__)
@@ -49,8 +49,8 @@ def index():
 def total():
     if request.method == "POST":
         #r1 = request.form.get("M01AB")
-        r2 = request.form.get("M01AE")
-        r3 = request.form.get("N02BA")
+        #r2 = request.form.get("M01AE")
+        #r3 = request.form.get("N02BA")
         r4 = request.form.get("N02BE")
         r5 = request.form.get("N05B")
         r6 = request.form.get("N05C")
@@ -58,7 +58,7 @@ def total():
         r8 = request.form.get("R06")
         rd1 = request.form.get("rd1")
         products = {}
-        lista = [r2, r3, r4, r5, r6, r7, r8]
+        lista = [r4, r5, r6, r7, r8]
         global count
         count = 0
         rd1 = datetime.strptime(rd1, "%Y-%m-%d")
