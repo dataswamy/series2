@@ -12,7 +12,7 @@ joblib
 kiwisolver
 MarkupSafe==1.1.1
 matplotlib
-mkl-fft==1.2.0
+mkl-fft==1.0.6
 mkl-random==1.1.1
 mkl-service==2.3.0
 numpy
